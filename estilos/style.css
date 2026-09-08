@@ -433,11 +433,11 @@ main
     /************************************************/
     .portadanovios
     {
-        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center; 
+        
     }
     .portadanovios h2
     {
@@ -480,9 +480,7 @@ main
     /************************************************/
     
     .portadadami
-    {
-        height: 100vh;
-        min-height: 100vh;
+    {border: solid red 3px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
