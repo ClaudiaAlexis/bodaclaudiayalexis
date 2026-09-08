@@ -1,0 +1,659 @@
+html::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: rgb(0, 0, 0);    
+}
+html::-webkit-scrollbar-thumb
+{
+    background-color:  rgb(206, 186, 77)
+}
+body
+{
+    margin: 0px;
+    width: 100%;
+    color: rgb(206, 186, 77);
+    background-image: url("../imagenes/fondo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+/******************************************************************/
+main
+{
+     
+}
+/*************************************************************PORTADA NOVIOS*/
+.portadanovios
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cormorant", serif;
+    text-align: center;
+    
+}
+.portadanovios h2
+{
+    font-size: 60px;
+    border: solid 4px rgb(206, 186, 77);
+    padding: 0px 40px;
+    margin: 20px 0px 0px 0px;
+   
+}
+.flor51
+{
+    width: 50%;
+    margin: -30px 0px 0px 0px;
+}
+.nombres1
+{
+    font-family: "Mea Culpa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(206, 186, 77);
+    text-align: center;
+    margin: 0px;
+    font-size: 50px !important;
+    border-top: solid 4px rgb(206, 186, 77);
+    border-bottom: solid 4px rgb(206, 186, 77);
+    padding: 5px 10px;
+}
+.fotoanillos
+{
+    width: 25%;
+    margin: 0px 0px -30px 0px;
+}
+.flor512
+{
+    width: 50%;
+    transform: rotate(180deg);
+}
+.portadanovios h3
+{
+  font-size: 50px !important;
+  margin: 0px 0px 0px 0px !important;
+}
+.fotonovios
+{
+    width: 30%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 5px rgb(206, 186, 77);
+}
+.fotoflor4
+{
+    width: 40%;
+    transform: rotate(180deg);
+    margin-top: -130px;
+}
+/*************************************************************PORTADA DAMI*/
+.portadadami
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cormorant", serif;
+    text-align: center;
+}
+.florbautizo
+{
+    width: 40%;
+    margin: 100px 0px 20px 0px;
+}
+.nombredami
+{
+    font-family: "Mea Culpa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(206, 186, 77);
+    text-align: center;
+    margin: 0px;
+    font-size: 50px !important;
+    border-top: solid 4px rgb(206, 186, 77);
+    border-bottom: solid 4px rgb(206, 186, 77);
+    padding: 10px 10px;
+}
+.fotocruz
+{
+    width: 10%;
+    margin: -230px 0px 0px 0px;
+}
+.portadadami h3
+{
+    font-size: 50px;
+    margin: 10px 0px 0px 0px;
+}
+.fotodami
+{
+    width: 30%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 5px rgb(206, 186, 77);
+    margin: 10px 0px 0px 0px;
+}
+/**********************************************************/
+.versiculos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 0px 0px;
+}
+.versiculos h3
+{
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+}
+.texto1
+{
+    text-align: center;
+    font-size: 30px;
+    width: 70%;
+    margin: 10px 0px 0px 0px;
+    
+}
+.aVersiculos
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+}
+.aVersiculos p
+{
+    color: #ddb8ee;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Mea Culpa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+.cita
+{
+    color: rgb(206, 186, 77);
+}
+.imagenversiculos
+{
+    width: 8%;
+}
+.imagenversiculos2
+{
+    width: 8%;
+    transform: scaleX(-1);
+}
+/****************************************************************/
+.invitacion
+{
+    margin: 100px 0px 0px 0px;
+}
+.nombres2
+{
+    font-family: "Mea Culpa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(206, 186, 77);
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+    font-size: 50px;
+}
+.i1, .i2
+{
+    text-align: center;
+}
+.flor9
+{
+    width: 50%;
+}
+.DivInvitacion
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.DivInvitacion p
+{
+    color: #ddb8ee;
+    font-size: 30px;
+    text-align: center;
+    width: 90%;
+    font-family: "Cormorant", serif;
+    margin: 3px 0px;
+}
+
+
+/**************************************************************/
+
+.u1
+{
+    width: 100%;
+}
+.ubicacionflor8
+{
+    width: 100%;
+    transform: rotate(180deg);
+}
+.iubicacionflor8
+{
+    transform: rotate(0deg) !important;
+    width: 100%;
+}
+.ubicacion
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px 0px 0px 0px;
+}
+.aUbicacion
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aUbicacion p
+{
+    color: rgb(206, 186, 77);
+    font-size: 30px;
+    text-align: center;
+    font-family: "Cormorant", serif;
+    margin: 10px 0px;
+    width: 100%;
+    font-size: 35px;
+}
+.u5 a
+{
+    border-radius: 10px;
+    color: rgb(206, 186, 77);
+    background-color: #341344;
+    margin: 10px;
+    padding: 5px 25px;
+    border: solid 3px rgb(206, 186, 77);
+}
+.u6
+{
+    font-size: 55px !important;
+}
+.logoevento
+{
+    width: 60%;
+}
+.link-ubi
+{
+    font-family: "Cormorant", serif;
+}
+.u5 a:hover
+{
+    background-color: rgb(122, 107, 19);
+}
+/***********************************************************/
+
+.regalo
+{
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+}
+.flor6
+{
+    width: 50%;
+}
+.r2, .r5
+{
+    color: rgb(206, 186, 77) !important;
+}
+.r10 a
+{
+    border-radius: 10px;
+    color: rgb(206, 186, 77);
+    background-color: #341344;
+    margin: 10px;
+    padding: 5px 25px;
+    border: solid 3px rgb(206, 186, 77);
+}
+.u5 a, .r10 a:link
+{ 
+    text-decoration: none;
+}
+.r10 a:hover
+{
+    background-color: rgb(122, 107, 19);
+}
+.r12
+{
+    font-size: 60px !important;
+}
+.sobre
+{
+    width: 5%;
+}
+.vestimenta
+{
+    width:25%;
+}
+.regalo p
+{
+    color: #cb71f5;
+    font-family: "Cormorant", serif;
+    font-size: 30px;
+    text-align: center;
+}
+.colores
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 12px 10px;
+    width: 50%;
+    margin: auto;
+    background-color: #80dbff;
+}
+.blanco
+{
+    background-color: white;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+.azul
+{
+    background-color: #0e46d4;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+.celeste
+{
+    background-color: #4d82bc;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+.marino
+{
+    background-color: #071C85;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+.rojo
+{
+    background-color: red;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+.granate
+{
+    background-color: #BF0404;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+.r2, .r5, .r7, .r9
+{
+    font-size: 30px !important;
+}
+.nombres3
+{
+    font-family: "Mea Culpa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(206, 186, 77);
+    text-align: center;
+    margin: 10px auto;
+    width: 60%;
+    font-size: 70px;
+}
+.iubicacionflor8
+{
+    transform: scaleX(-1);
+}
+.iflor9, .iflor6
+{
+    transform: scaleY(-1);
+}
+@media screen and (min-width: 0px) and (max-width: 500px)
+{
+
+    /************************************************/
+    .portadanovios
+    {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center; 
+    }
+    .portadanovios h2
+    {
+        margin: 10px 0px 0px 0px;
+        font-size: 40px;
+    }
+    .flor51, .flor512
+    {
+        width: 60%;
+    }
+    .flor51
+    {
+        margin: 0px 0px 0px 0px;
+    }
+    .flor512
+    {
+        margin: 0px 0px 0px 0px;
+    }
+    .nombres1
+    {
+        font-size: 50px !important;
+        width: 80%;
+    }
+    .portadanovios h3 
+    {
+        margin: -20px 0px 0px 0px !important;
+        font-size: 30px !important;
+    }
+    .fotonovios
+    {
+        width: 60%;
+        margin: 0px 0px 0px 0px;
+    }
+    .fotoflor4
+    {
+        width: 70%;
+        margin: -80px 0px 0px 0px;
+    }
+
+    /************************************************/
+    
+    .portadadami
+    {
+        height: 100vh;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 100px 0px 0px 0px;
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+        box-sizing: border-box;
+    }
+    .florbautizo
+    {
+        width: 90%;
+        margin: 20px 0px 0px 0px;
+    }
+    .nombredami
+    {
+        font-size: 50px !important;
+        width: 90%;
+    }
+    .fotodami
+    {
+        width: 70%;
+        margin: -50px 0px 0px 0px;
+    }
+    .portadadami h3
+    {
+        margin: 0px 0px 50px 0px;
+    }
+    /************************************************/
+    .versiculos h3
+    {
+        font-size: 45px;
+    }
+    .versiculos .texto1
+    {
+        width: 100%;
+        font-size: 25px;
+        margin: 40px 0px 0px 0px;
+    }
+    .imagenversiculos
+    {
+        transform: rotate(90deg);
+         margin: -80px 0px 0px 0px;
+         width: 25%;
+    }
+    .imagenversiculos2
+    {
+        transform: rotate(-90deg);
+        margin: 0px 0px -120px 0px;
+        width: 25%;
+    }
+    .aVersiculos
+    {
+        display: flex;
+        flex-direction: column;    
+        margin: 0px 0px 0px 0px;
+    }
+    .aVersiculos p
+    {
+        margin: -120px 0px;
+        font-size: 50px;
+        
+    }
+    .cita
+    {
+        font-size: 30px;
+    }
+    .pVersiculos
+    {
+        width: 100%;
+        
+    }
+    /*********************************************/
+    .nombres2
+    {
+        margin: 15px 0px;
+        font-size: 50px;
+        width: 90%;
+    }
+    .di8
+    {
+        margin-top: 20px !important; 
+    }
+    .flor9
+    {
+        width: 60%;
+    }
+    .DivInvitacion p
+    {
+        width: 100%;
+        font-size: 30px;
+    }
+    .di5
+    {
+        width: 65% !important;
+        
+    }
+
+/*******************************************/
+    .u1
+    {
+        width: 40%;
+    }
+    .ubicacion
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    .aUbicacion
+    {
+        padding: 0px;
+    }
+    .aUbicacion p
+    {
+        font-size: 35px !important;
+    }
+    .u4
+    {
+       width: 100%; 
+    }
+    .ubicacionflor8, .iubicacionflor8
+    {
+        display: none;
+    }
+    .aUbicacion .u6
+    {
+        font-size: 55px !important;
+    }
+
+/***************************************/
+
+    .flor6
+    {
+        width: 50%;
+    }
+    .vestimenta
+    {
+        width:80%;
+    }
+    .regalo p
+    {
+        font-size: 35px !important;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .regalo .r5
+    {
+        margin: 30px 0px 5px 0px;
+    }
+    .regalo .r10
+    {
+        margin: 40px 0px 40px 0px;
+    }
+    .nombres3
+    {
+        font-size: 40px;
+        padding: 0px;
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .regalo .r12
+    {
+        font-size: 30px !important;
+    }
+    .regalo
+    {
+        margin: 0px;
+    }
+
+}
