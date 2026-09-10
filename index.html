@@ -24,6 +24,40 @@
 <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@0;1&family=Imperial+Script&family=Italianno&family=Mea+Culpa&family=Pinyon+Script&family=The+Nautigal:wght@400;700&family=Ultra&display=swap" rel="stylesheet">
 </head>
 <body>
+<!------------------------------------------------------------------------ -->
+
+<!-- Elemento de audio invisible -->
+<style>
+  .boton-invisible {
+  opacity: 0;
+  width: 100px;
+  height: 40px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+</style>
+<audio id="musica-fondo" loop>
+  <source src="recursos/cancion.mp3" type="audio/mpeg" preload="auto">
+ </audio>
+<!-- Botón de control de audio (Recomendado) -->
+<button  class="boton-invisible" id="btn-musica"; cursor: pointer;>
+</button>
+<script>
+  const audio = document.getElementById('musica-fondo');
+  const btn = document.getElementById('btn-musica');
+
+  // Opcional: Iniciar música automáticamente al primer clic en cualquier parte de la página
+  document.addEventListener('click', () => {
+    if (audio.paused && btn.textContent.includes('')) {
+      audio.play();
+      btn.classList.add('playing');
+    }
+  }, { once: true }); // 'once: true' asegura que solo se ejecute al primer clic
+</script>
+
+
+
     <main>
         <div class="portadanovios">
             <h2>10 - 10 - 2026</h2>
