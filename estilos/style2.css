@@ -80,7 +80,7 @@ body {
 
     border-radius: 50%;
 
-    background: rgb(206, 186, 77);
+    background: #341344;
 
     display: flex;
     justify-content: center;
@@ -102,15 +102,12 @@ body {
 ================================= */
 
 .nombres {
-    color: #3f5120;
-
-    font-size: 40px;
-
+    color: rgb(206, 186, 77);
+    font-size: 50px;
     font-style: italic;
-
     line-height: 0.95;
-
     margin-bottom: 25px;
+    width: 70%;
 }
 
 .nombres span {
@@ -162,7 +159,7 @@ body {
 ================================= */
 
 .invitacion {
-    color: #b4a078;
+    color: #cb71f5;
 
     font-family: Georgia, serif;
 
@@ -187,7 +184,7 @@ body {
     width: 110px;
     height: 49px;
 
-    background: rgb(206, 186, 77);
+    background: #341344;
 
     color: #ffffff;
 
@@ -212,7 +209,7 @@ body {
 /* Efecto al pasar el mouse */
 
 .boton:hover {
-    background: #ddb8ee;
+    background: #8345a0;
 
     transform: translateY(-2px);
 
@@ -257,6 +254,7 @@ body {
 
     .nombres {
         font-size: 40px;
+        width: 100%;
     }
 
     .nombres span {

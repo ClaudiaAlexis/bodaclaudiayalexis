@@ -511,7 +511,9 @@ main
     /************************************************/
     .versiculos h3
     {
-        font-size: 45px;
+        font-size: 40px;
+        border: solid red 2px;
+        width: 90%;
     }
     .versiculos .texto1
     {
