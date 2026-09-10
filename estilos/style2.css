@@ -236,12 +236,14 @@ body {
 
     .portada {
         padding: 18px;
+        min-height: 0px;
+        margin: 15% 0%;
     }
 
     .tarjeta {
         min-height: 360px;
-
         padding: 30px 20px;
+        margin: 0px;
     }
 
     .corazon {
@@ -254,7 +256,7 @@ body {
     }
 
     .nombres {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .nombres span {
